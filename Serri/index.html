@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="search" id="search" placeholder="search ...">
+    <div id="result">
+
+    </div>
+
+    <form id="form">
+        <input type="text" id="fname"><br>
+        <input type="text" id="lname"><br>
+        <input type="email" id="email"><br>
+        <input type="submit" id="submit">
+    </form>
+    <script>
+        document.getElementById("search").addEventListener("input", searchForInfo);
+        document.getElementById("form").addEventListener("submit", insertUser);
+
+        function searchForInfo(e) {
+            e.preventDefault(); //this prevents the page from refreshing after submitting
+            let data = document.getElementById("search").value; //saving the firstname value
+            // let params = `search=${data}`; //creating the parameters for the POST method
+
+            let request = new XMLHttpRequest(); //creating new request
+            request.open("GET", "search.php?search=" + data); //connecting to the process.php file
+            // request.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); //setting header for POST method
+            request.onload = function () {
+                if (this.status == 200) {
+                    document.getElementById("result").innerHTML = this.responseText;
+                    // console.log(this.responseText);
+                }
+            };
+            request.send(); //send parameters to be further processed by php
+        }
+
+        function insertUser(e) {
+            e.preventDefault(); //this prevents the page from refreshing after submitting
+            let fname = document.getElementById("fname").value; //saving the firstname value
+            let lname = document.getElementById("lname").value; //saving the firstname value
+            let email = document.getElementById("email").value; //saving the firstname value
+            let params = `fname=${fname}&lname=${lname}&email=${email}`; //creating the parameters for the POST method
+
+            let request = new XMLHttpRequest(); //creating new request
+            request.open("POST", "create.php"); //connecting to the process.php file
+            request.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); //setting header for POST method
+            request.onload = function () {
+                if (this.status == 200) {
+                    alert(this.responseText);
+                    searchForInfo(e);
+                    // console.log(this.responseText);
+                }
+            };
+            request.send(params); //send parameters to be further processed by php
+        }
+    </script>
+</body>
+
+</html>

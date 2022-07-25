@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<songs>
+    <album id="101">
+         <artist>Mor ve Ötesi</artist>
+         <title>Rock Band</title>
+         <genre>Rock</genre>
+         <price>140</price>
+         <image>https://cdn.pixabay.com/photo/2016/09/10/11/11/musician-1658887_960_720.jpg</image>
+         <country> Turkey</country>
+         <description>Mor ve Ötesi is a Turkish rock band from Istanbul. History Kerem Kabadayi, Harun Tekin, Derin Esmer and Alper Tekin founded in early 1995. First album was in august.</description>
+    </album>
+    <album id="102">
+         <artist>Duman</artist>
+         <title>Rock Band</title>
+         <genre >Rock</genre>
+          <price>20</price>
+         <image>https://cdn.pixabay.com/photo/2016/11/19/11/11/dua-lipa-1838653_960_720.jpg</image>
+         <country>Turkey</country>
+         <description>Duman is one of Turkey's most successful rock bands. In the early 1990s, Kaan Tangöze (vocals) and Ari Barokas (electric bass) formed the rock band Mad Madame.</description>
+    </album >
+    <album id ="103">
+         <artist>Gripin</artist>
+         <title>Rock Band</title>
+         <genre>Rock</genre>
+          <price>249</price>
+         <image>https://cdn.pixabay.com/photo/2016/11/22/19/15/audience-1850119_960_720.jpg</image>
+         <country> Turkey</country>
+          <description>Born on 09.11.1978, S. Birol Namoglu started amateur music while studying at İSTEK Kemal Atatürk High School as a vocalist in the high school group he founded with E.I. and M.E.</description>
+    </album >
+    <album  id="104">
+         <artist> Kurban</artist>
+         <title> Rock Band</title>
+         <genre>Rock</genre>
+         <price> 140</price>
+          <image>https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137_960_720.jpg</image>
+          <country> Turkey </country>
+         <description >Kurban (The Sacrifice) is a Turkish rock band. The band formed in 1995. The members are, Kerem Tüzün, Burak Gürpinar, Deniz Yilmaz and Özgür Kankaynar.</description>
+    </album>
+        <album id="105">
+         <artist>Mor ve Ötesi</artist>
+         <title>Rock Band</title>
+         <genre>Rock</genre>
+         <price>140</price>
+         <image>https://cdn.pixabay.com/photo/2016/09/10/11/11/musician-1658887_960_720.jpg</image>
+         <country> Turkey</country>
+         <description>Mor ve Ötesi is a Turkish rock band from Istanbul. History Kerem Kabadayi, Harun Tekin, Derin Esmer and Alper Tekin founded in early 1995. First album was in august.</description>
+    </album>
+    <album id="106">
+         <artist>Duman</artist>
+         <title>Rock Band</title>
+         <genre >Rock</genre>
+          <price>20</price>
+         <image>https://cdn.pixabay.com/photo/2016/11/19/11/11/dua-lipa-1838653_960_720.jpg</image>
+         <country>Turkey</country>
+         <description>Duman is one of Turkey's most successful rock bands. In the early 1990s, Kaan Tangöze (vocals) and Ari Barokas (electric bass) formed the rock band Mad Madame.</description>
+    </album >
+    <album id ="107">
+         <artist>Gripin</artist>
+         <title>Rock Band</title>
+         <genre>Rock</genre>
+          <price>249</price>
+         <image>https://cdn.pixabay.com/photo/2016/11/22/19/15/audience-1850119_960_720.jpg</image>
+         <country> Turkey</country>
+          <description>Born on 09.11.1978, S. Birol Namoglu started amateur music while studying at İSTEK Kemal Atatürk High School as a vocalist in the high school group he founded with E.I. and M.E.</description>
+    </album >
+    <album  id="108">
+         <artist> Kurban</artist>
+         <title> Rock Band</title>
+         <genre>Rock</genre>
+         <price> 140</price>
+          <image>https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137_960_720.jpg</image>
+          <country> Turkey </country>
+         <description >Kurban (The Sacrifice) is a Turkish rock band. The band formed in 1995. The members are, Kerem Tüzün, Burak Gürpinar, Deniz Yilmaz and Özgür Kankaynar.</description>
+    </album>
+</songs>
